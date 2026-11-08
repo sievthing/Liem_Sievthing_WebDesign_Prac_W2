@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 97vh;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 1rem;
+        }
+        .head{
+            border-radius: 0.5rem;
+            height: 55px;
+            width: 100%;
+            background-color: #1e90ff;
+            box-shadow: 2px 2px 0 #0077ea;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+        }
+        .body{
+            display: flex;
+            flex-direction: row;
+            flex-grow: 1;
+            gap:1rem;
+        }
+        .main{
+            background-color: #3cb371;
+            box-shadow:2px 2px 0 #2f8d59;
+            color: white;
+            border-radius: 0.5rem;
+            flex-grow: 1;
+        }
+        .items{
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            padding: 1rem;     
+        }
+        .sidebar{
+            background-color: #ff6347;
+            box-shadow: 2px 2px 0 #e02200;
+            border-radius: 0.5rem;
+            color: white;
+            width: 250px;
+            padding: 20px;
+        }
+        .footer{
+            background-color: #4169e1;
+            box-shadow: 2px 2px 0 #1d44b8;
+            height: 55px;
+            width: 100%;
+            color: white;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+        }
+        .item{
+            height: 90px;
+            width: 90px;
+            background-color: #2f8d59;
+            box-shadow:2px 2px 0 #226741;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0.5rem;
+        }
+        .tag{
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head">header</div>
+        <div class="body">
+            <div class="main">
+                <div class="tag">main</div>
+                <div class="items">
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div> 
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>                     
+                </div>  
+            </div>
+            <div class="sidebar">sidebar</div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>
