@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+}
+.logo{
+    font-size: larger;
+    color: white;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: small;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+.hamburger{
+    display: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .hamburger{
+        display: block;
+    }    
+    .filter{
+        display: none;
+    }
+}

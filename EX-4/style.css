@@ -1,0 +1,35 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+
+.small{
+    display: none;
+    background-color: red;
+    height: 70px;
+    padding: 0 20px;
+}
+
+.big{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    width: clamp(300px,100%,800px);
+    background-color: greenyellow;
+    height: 100%;
+}
+
+@media (max-width:400px) {
+    .small{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .big{
+        display: none;
+    }
+}
