@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <div class="acc"><h2>Create Account</h2></div>
+
+        <div class="info">
+            <div class="name">
+
+                <div class="fn">
+                    <span>First name *</span><br>
+                    <input type="text" placeholder="enter your first name">
+                </div>
+
+                <div class="ln">
+                    <span>Last name *</span><br>
+                    <input type="text" placeholder="enter your last name">                
+                </div>
+
+            </div>
+
+            <div class="em">
+                <span>Email *</span><br>
+                <input type="email" placeholder="enter your email">
+            </div>
+
+            <div class="pw">
+
+                <div>
+                    <span>Password *</span><br>
+                    <input type="text" placeholder="enter your password">                
+                </div>
+
+                <div>
+                    <span>Comfirm Password *</span><br>
+                    <input type="text" placeholder="enter your password again">        
+                </div>
+
+            </div>
+
+            <div class="gh">
+
+                <div>
+                    <Span>Gender:</Span><br>
+                    <input type="radio" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="fm">
+                    <label for="fm">Female</label>      
+                </div>
+
+                <div class="hob">
+                    <span>Hobbies</span><br>
+                    <input type="checkbox" id="music">
+                    <label for="music">Music</label>
+                    <input type="checkbox" id="sport">
+                    <label for="sport">Sports</label>
+                    <input type="checkbox" id="travel">
+                    <label for="travel">Travel</label>
+                    <input type="checkbox" id="movie"> 
+                    <label for="movie">Movies</label>                 
+                </div>
+
+            </div>
+
+            <div class="income">
+
+                <div>
+                    <span>Source</span><br>
+                    <select>
+                        <option value="employed" selected>Employed</option>
+                        <option value="self-employed">Self-Employed</option>
+                        <option value="student">Student</option>
+                    </select>
+                </div> 
+                
+                <div>
+                    <span>Income</span><br>
+                    <input type="range" min="0" max="20000">
+                </div>
+
+            </div>
+
+            <div class="fi">
+
+                <div>
+                    <span>Upload Profile Picture</span><br>
+                    <input type="file" placeholder="Choose File">
+                </div>
+
+                <div>
+                    <span>Age</span><br>
+                    <input type="text" placeholder="enter your age">
+                </div>
+
+            </div>
+
+            <div>
+                <span>Bio</span><br>
+                <textarea name="bio" placeholder="..."></textarea>
+            </div>
+        </div>
+
+        <div class="footer">
+            <button type="submit" class="btn">Create</button>
+        </div>
+
+    </div>
+</body>
+</html>
